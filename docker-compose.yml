@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  testing:
+    build: .
+    volumes:
+      - .:/home/httpapp
+    command: ["python", "keepalive.py"]
+    container_name: rolindex-test
