@@ -6,4 +6,4 @@ services:
     volumes:
       - .:/home/httpapp
     command: ["python", "keepalive.py"]
-    container_name: rolindex-test
+    container_name: basic-rolindex
